@@ -26,9 +26,7 @@ export const ArticleCard = ({ className = '' }) => {
                 </p>
                 
             </div>
-            <Link href={'#!'} className='mt-[24px]'>
-                <ReadMoreButton />
-            </Link>
+            <ReadMoreButton className='mt-[24px]' />
         </div>
     </div>
   )
