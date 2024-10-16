@@ -69,6 +69,7 @@ module.exports = {
   			title_2: ["48px", { lineHeight: "60px" }],
   			title_3: ["36px", { lineHeight: "44px" }],
   			title_4: ["30px", { lineHeight: "38px" }],
+  			title_5: ["24px", { lineHeight: "32px" }],
   			lg: ["18px", { lineHeight: "28px" }],
   			md: ["16px", { lineHeight: "24px" }],
   			sm: ["14px", { lineHeight: "20px" }]
