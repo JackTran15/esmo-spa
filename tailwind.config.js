@@ -25,6 +25,8 @@ module.exports = {
 			gray: {
 				DEFAULT: 'var(--gray)',
 				2: 'var(--gray2)',
+				3: 'var(--gray3)',
+				4: 'var(--gray4)',
 			},
 			brown: {
 				DEFAULT: 'var(--brown)',

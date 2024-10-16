@@ -85,6 +85,8 @@ a {
     --brown: #F4EEE8;
     --gray: #4B5563;
     --gray2: #E5E7EB;
+    --gray3: #D1D5DB;
+    --gray4: #374151;
   }
   .dark {
     --background: 0 0% 3.9%;
