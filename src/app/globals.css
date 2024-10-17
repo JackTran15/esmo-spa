@@ -55,7 +55,6 @@ a {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -81,8 +80,10 @@ a {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
 
+    --background: #F9F6F4;
     --primary: #C8A98E;
     --brown: #F4EEE8;
+    --brown2: #EEE5DD;
     --gray: #4B5563;
     --gray2: #E5E7EB;
     --gray3: #D1D5DB;

@@ -16,7 +16,7 @@ module.exports = {
   	},
   	extend: {
   		colors: {
-  			background: 'hsl(var(--background))',
+  			background: 'var(--background)',
   			foreground: 'hsl(var(--foreground))',
   			bg_primary: '#000000',
   			primary: {
@@ -30,6 +30,7 @@ module.exports = {
 			},
 			brown: {
 				DEFAULT: 'var(--brown)',
+				2: 'var(--brown2)',
 			},
 
   			card: {

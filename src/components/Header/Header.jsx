@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Logo from "@/images/logo.png";
 import "./Header.css";
 import Link from "next/link";
 
 import { ChevronDownIcon } from "@/icons";
 import ServiceImage from "@/images/service-1.png";
+import { LogoApp } from "../common/LogoApp/LogoApp";
 
 export const Header = () => {
   return (
@@ -12,9 +12,7 @@ export const Header = () => {
       <div id="main-menu" className="main-menu">
         <input type="checkbox" id="show-menu-checker" hidden />
         <div className="logo-container">
-          <Link href="/">
-            <Image src={Logo} alt="logo" />
-          </Link>
+          <LogoApp />
           <label className="menu-toggle" for="show-menu-checker">
             <div className="line"></div>
             <div className="line"></div>
