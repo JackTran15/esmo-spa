@@ -2,6 +2,7 @@ import React from 'react'
 import { ServiceCard } from './ServiceCard/ServiceCard'
 import { ImageFull } from '@/components/common/ImageFull/ImageFull'
 import { FooterArticle } from '@/components/common/FooterArticle/FooterArticle'
+import { MainHero } from './MainHero/MainHero'
 
 export const ServicePage = () => {
 
@@ -33,7 +34,8 @@ export const ServicePage = () => {
   ]
 
   return (
-    <div className='container pt-[64px] pb-[96px]'>
+    <div className='container pt-[40px] pb-[96px]'>
+      <MainHero/>
       <div className='flex flex-col'>
         <div className='py-[64px]'>
           <ImageFull src={'/assets/images/service_top_banner.jpg'} />

@@ -84,6 +84,7 @@ a {
     --primary: #C8A98E;
     --brown: #F4EEE8;
     --brown2: #EEE5DD;
+    --brown3: #846F5B;
     --gray: #4B5563;
     --gray2: #E5E7EB;
     --gray3: #D1D5DB;
@@ -178,4 +179,37 @@ a {
   display: block;
   @apply text-primary;
   font-size: 24px;
+}
+
+.customArrowCarousel.customerReviewCarousel {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .customArrowCarousel.customerReviewCarousel .slick-arrow.slick-prev {
+    left: 0;
+    right: unset;
+  }
+  
+  .customArrowCarousel.customerReviewCarousel .slick-arrow.slick-next {
+    left: 35px;
+    right: unset;
+  }
+}
+
+.customArrowCarousel.introHomeCarousel {
+  padding-bottom: 15px;
+}
+
+.introHomeCarousel .customDotCarousel {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.customArrowCarousel.introHomeCarousel .slick-arrow {
+  right: 15px;
+}
+
+.customArrowCarousel.introHomeCarousel .slick-arrow.slick-prev {
+  right: 50px;
 }

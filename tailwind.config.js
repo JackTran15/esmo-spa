@@ -31,6 +31,7 @@ module.exports = {
 			brown: {
 				DEFAULT: 'var(--brown)',
 				2: 'var(--brown2)',
+				3: 'var(--brown3)',
 			},
 
   			card: {
@@ -69,10 +70,12 @@ module.exports = {
   			}
   		},
   		fontSize: {
+  			title_1: ["60px", { lineHeight: "72px" }],
   			title_2: ["48px", { lineHeight: "60px" }],
   			title_3: ["36px", { lineHeight: "44px" }],
   			title_4: ["30px", { lineHeight: "38px" }],
   			title_5: ["24px", { lineHeight: "32px" }],
+  			xl: ["20px", { lineHeight: "30px" }],
   			lg: ["18px", { lineHeight: "28px" }],
   			md: ["16px", { lineHeight: "24px" }],
   			sm: ["14px", { lineHeight: "20px" }]

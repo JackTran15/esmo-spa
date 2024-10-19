@@ -11,7 +11,6 @@ export const HotArticles = () => {
 
     const carouselConfig = {
         arrows: false,
-        dots: false,
         swipeToSlide: true,
         touchThreshold: 100,
         // infinite: true,
@@ -22,9 +21,6 @@ export const HotArticles = () => {
         // variableWidth: variableWidth ?? false,
         // adaptiveHeight: adaptiveHeight ?? false,
         slidesToShow: 1,
-        // responsive,
-        // customPaging,
-        // appendDots,
         arrows: true,
         dots: true,
         dotsClass: 'customDotCarousel',
