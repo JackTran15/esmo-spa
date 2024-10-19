@@ -57,7 +57,7 @@ export const Header = () => {
               </div>
             </li>
             <li className="nav-item">
-              <Link className="nav-item-title" href="#">
+              <Link className="nav-item-title" href="/about">
                 Về Emospa
               </Link>
             </li>
