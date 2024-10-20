@@ -181,7 +181,8 @@ a {
   font-size: 24px;
 }
 
-.customArrowCarousel.customerReviewCarousel {
+.customArrowCarousel.customerReviewCarousel,
+.customArrowCarousel.newDetailsCarousel {
   padding-bottom: 50px;
 }
 
@@ -195,6 +196,28 @@ a {
     left: 35px;
     right: unset;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .customArrowCarousel.customerReviewCarousel .slick-arrow.slick-prev {
+    left: 0;
+    right: unset;
+  }
+  
+  .customArrowCarousel.customerReviewCarousel .slick-arrow.slick-next {
+    left: 35px;
+    right: unset;
+  }
+}
+
+.customArrowCarousel.newDetailsCarousel .slick-arrow.slick-prev {
+  left: 0;
+  right: unset;
+}
+
+.customArrowCarousel.newDetailsCarousel .slick-arrow.slick-next {
+  left: 35px;
+  right: unset;
 }
 
 .customArrowCarousel.introHomeCarousel {
@@ -212,4 +235,40 @@ a {
 
 .customArrowCarousel.introHomeCarousel .slick-arrow.slick-prev {
   right: 50px;
+}
+
+/* CUSTOM FOR article */
+article ul, 
+article ol {
+  list-style-position: inside;
+}
+
+article h2 {
+  @apply text-title_4;
+  font-weight: 700;
+  color: black;
+}
+
+article h3 {
+  @apply text-xl;
+  font-weight: 700;
+}
+
+article h4 {
+  background-color: blue;
+}
+
+article h5 {
+  background-color: gray;
+}
+
+article p {
+  @apply text-lg;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 48px auto;
 }

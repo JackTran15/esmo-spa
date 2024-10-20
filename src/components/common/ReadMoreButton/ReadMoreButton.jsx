@@ -4,7 +4,7 @@ import React from 'react'
 
 export const ReadMoreButton = ({ className = '' }) => {
 
-    const classNameCustom = cn("text-md text-primary p-0 min-h-min", className)
+    const classNameCustom = cn("text-md justify-start text-primary p-0 min-h-min", className)
 
     return (
         <Button variant="ghost" className={classNameCustom}>

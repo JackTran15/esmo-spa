@@ -78,7 +78,8 @@ module.exports = {
   			xl: ["20px", { lineHeight: "30px" }],
   			lg: ["18px", { lineHeight: "28px" }],
   			md: ["16px", { lineHeight: "24px" }],
-  			sm: ["14px", { lineHeight: "20px" }]
+  			sm: ["14px", { lineHeight: "20px" }],
+  			xs: ["12px", { lineHeight: "18px" }]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
