@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { AppLayout } from "@/components/layouts/AppLayout/AppLayout";
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +15,11 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
       </head>
-      <body>{children}</body>
+      <body className="bg-[#F9F6F4]">
+        <AppLayout>
+          {children}
+        </AppLayout>
+      </body>
     </html>
   );
 }

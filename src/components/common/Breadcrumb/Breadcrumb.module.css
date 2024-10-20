@@ -1,0 +1,19 @@
+.linkItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    @apply text-gray;
+    @apply text-xs;
+}
+
+.linkItem:hover {
+    @apply text-primary;
+}
+
+.linkItem:not(:last-child)::after {
+    content: url('/assets/icons/ic_arrow_right.svg'); 
+    width: 20px;
+    height: 20px;
+    display: block;
+    flex-shrink: 0; 
+}
