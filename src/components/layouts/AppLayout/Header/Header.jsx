@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import { ChevronDownIcon } from "@/icons";
 import ServiceImage from "@/images/service-1.png";
+import { ReadMoreButton } from "@/components/common/ReadMoreButton/ReadMoreButton";
 
 export const Header = () => {
   return (
@@ -39,6 +40,7 @@ export const Header = () => {
 
                 <div className="nav-item-services-grid">
                   {Array.from({ length: 5 }).map((_, index) => (
+                    <Link href="/details">
                     <div className="card" key={index}>
                       <div className="card-image">
                         <Image src={ServiceImage} alt="service" />
@@ -48,10 +50,11 @@ export const Header = () => {
                           Liệu pháp Massage dành cho cặp đôi
                         </h4>
                         <div className="card-link">
-                          <Link href="#">Tìm hiểu thêm</Link>
+                            <ReadMoreButton/>
                         </div>
                       </div>
                     </div>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -69,7 +72,7 @@ export const Header = () => {
           </ul>
 
           <div className="cta-wrapper">
-            <Link className="cta" href="/contact">
+            <Link className="cta w-full md:w-auto" href="/contact" >
               <div>Đặt lịch ngay</div>
             </Link>
           </div>
