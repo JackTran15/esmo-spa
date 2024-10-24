@@ -21,7 +21,7 @@ export const CustomerReviews = () => {
 
     return (
         <div className='w-full container py-[64px] md:py-[72px]'>
-            <p className='md:text-center text-title_5 md:text-title_3 font-semibold'>
+            <p className='md:text-center text-title_5 md:text-title_3 font-semibold text-noto'>
                 Khách Hàng Nói Gì Về Emospa?
             </p>
             <p className='md:text-center mt-[16px] text-gray text-xl md:text-lg'>

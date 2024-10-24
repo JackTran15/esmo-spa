@@ -2,10 +2,11 @@ import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import React from 'react'
 import Image from "next/image"
+import style from './style.module.css'
 
 export const ReadMoreButton = ({ className = '' }) => {
 
-    const classNameCustom = cn("text-md gap-[8px] justify-start text-primary p-0 min-h-min", className)
+    const classNameCustom = cn("text-md gap-[8px] justify-start text-primary p-0 min-h-min", style.hover, className)
 
     return (
         <Button variant="ghost" className={classNameCustom}>

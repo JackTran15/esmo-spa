@@ -8,7 +8,7 @@ export const NewsPage = () => {
   return (
     <div className="w-full container pb-[64px]">
       <div className="w-full py-[96px]">
-        <p className="text-title_2 font-semibold">Tin tức & Khuyến mãi</p>
+        <p className="text-title_2 font-semibold text-noto">Tin tức & Khuyến mãi</p>
         <p className="w-full text-lg text-gray mt-[24px] max-w-[768px]">
           Khám phá các bài viết chia sẻ về chăm sóc da, xu hướng làm đẹp, và lời
           khuyên từ các chuyên gia của chúng tôi.
@@ -22,7 +22,7 @@ export const NewsPage = () => {
       {/* Blog & Tư Vấn Làm Đẹp */}
       <div className="w-full mt-[28px]">
         <div className="w-full max-w-[768px] mx-auto">
-          <p className="text-center text-title_3 font-semibold">
+          <p className="text-center text-title_3 font-semibold text-noto">
             Blog & Tư Vấn Làm Đẹp
           </p>
           <p className="text-center mt-[16px] text-gray">

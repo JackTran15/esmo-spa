@@ -4,8 +4,8 @@ import "./Header.css";
 import Link from "next/link";
 
 import { ChevronDownIcon } from "@/icons";
-import ServiceImage from "@/images/service-1.png";
-import { ReadMoreButton } from "@/components/common/ReadMoreButton/ReadMoreButton";
+import { Button } from "@/components/ui/button";
+import { HeaderServiceCard } from "./HeaderServiceCard/HeaderServiceCard";
 
 export const Header = () => {
   return (
@@ -28,7 +28,7 @@ export const Header = () => {
             <li className="nav-item nav-item-has-dropdown">
               <input type="checkbox" id="service-dropdown-checker" hidden />
               <label className="nav-item-title" for="service-dropdown-checker">
-                <div>Dịch vụ</div>
+                Dịch vụ
                 <div className="dropdown">
                   <ChevronDownIcon />
                 </div>
@@ -40,21 +40,7 @@ export const Header = () => {
 
                 <div className="nav-item-services-grid">
                   {Array.from({ length: 5 }).map((_, index) => (
-                    <Link href="/details">
-                    <div className="card" key={index}>
-                      <div className="card-image">
-                        <Image src={ServiceImage} alt="service" />
-                      </div>
-                      <div className="card-content">
-                        <h4 className="card-title text-noto">
-                          Liệu pháp Massage dành cho cặp đôi
-                        </h4>
-                        <div className="card-link">
-                            <ReadMoreButton/>
-                        </div>
-                      </div>
-                    </div>
-                    </Link>
+                    <HeaderServiceCard  key={index} />
                   ))}
                 </div>
               </div>
@@ -72,8 +58,10 @@ export const Header = () => {
           </ul>
 
           <div className="cta-wrapper">
-            <Link className="cta w-full md:w-auto" href="/contact" >
-              <div>Đặt lịch ngay</div>
+            <Link href={'/contact'} className="w-full md:w-auto">
+              <Button className="w-full" size="headerButton">
+                Đặt lịch ngay
+              </Button>
             </Link>
           </div>
         </div>

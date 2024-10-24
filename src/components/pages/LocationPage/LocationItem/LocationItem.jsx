@@ -16,7 +16,7 @@ export const LocationItem = () => {
                 /> 
             </div>
         </div>
-        <p className='mt-[16px] text-title_5 font-semibold'>
+        <p className='mt-[16px] text-title_5 font-semibold text-noto'>
             Chi Nhánh 1
         </p>
         <div className='w-full flex flex-col mt-[16px] gap-[8px]'>

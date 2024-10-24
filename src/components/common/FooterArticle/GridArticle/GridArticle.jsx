@@ -5,10 +5,10 @@ import { ArticleCard } from '../../ArticleCard/ArticleCard'
 
 export const GridArticle = () => {
   return (
-    <div className='w-full relative pb-[90px] md:pb-0'>
+    <div className='w-full relative pb-[96px] md:pb-0'>
         <div className='w-full flex justify-between gap-5'>
-            <div className='w-full'>
-                <p className='text-title_3 font-semibold text-center md:text-left'>
+            <div className='w-full md:max-w-[768px]'>
+                <p className='text-title_3 font-semibold text-center md:text-left text-noto'>
                     Blog & Tư Vấn Làm Đẹp
                 </p>
                 <p className='text-lg mt-[16px] text-gray text-center md:text-left'>
@@ -19,9 +19,9 @@ export const GridArticle = () => {
                 Xem tất cả
             </Button>
         </div>
-        <div className="w-full mt-[64px]">
+        <div className="w-full mt-[48px] md:mt-[64px]">
             <div className={style.grid}>
-                <ArticleCard/>
+                <ArticleCard isBiggest />
                 <ArticleCard/>
                 <ArticleCard/>
             </div>

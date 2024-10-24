@@ -4,7 +4,7 @@ import { PackageItem } from './PackageItem/PackageItem'
 export const ServicePackage = () => {
   return (
     <div className='w-full'>
-        <p className='text-center text-title_4 md:text-title_3 font-semibold'>
+        <p className='text-center text-title_4 md:text-title_3 font-semibold text-noto'>
           Các gói dịch vụ Massage tình nhân tại 
           EMO SPA:
         </p>

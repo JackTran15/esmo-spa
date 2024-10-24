@@ -14,7 +14,7 @@ export const IntroHomeCard = ({ isActive }) => {
   })
 
   return (
-    <div className={'w-full'}>
+    <div className={'w-full xl:max-w-[550px] mx-auto'}>
         <div className={imageClassName}>
             <Image 
                 src={'/assets/images/service_1.jpg'}
@@ -26,7 +26,7 @@ export const IntroHomeCard = ({ isActive }) => {
             /> 
         </div>
         <div className={wrapperDescriptionClassName}>
-            <p className="text-center text-title_5 md:text-title_4 font-semibold text-brown-3">
+            <p className="text-center text-title_5 md:text-title_4 font-semibold text-brown-3 text-noto">
                 Liệu pháp Massage dành cho cặp đôi
             </p>
             <div className="flex justify-center mt-[20px]">

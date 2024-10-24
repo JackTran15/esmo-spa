@@ -6,11 +6,11 @@ export const PackageItem = () => {
     <div className="w-full bg-white rounded-lg border-t-4 border-primary">
         <div className="w-full p-[32px]">
             <div className="w-full border-b border-gray-2">
-                <p className="text-center text-xl font-bold text-gray">
+                <p className="text-center text-xl font-bold text-gray text-noto">
                 Gói cặp đôi <br />
                 (Thắp lửa yêu thương)
                 </p>
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside mt-[8px]">
                     <li>
                         Thời gian: 2 giờ 30 phút
                     </li>

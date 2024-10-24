@@ -25,7 +25,7 @@ export const ServiceCard = ({ thumbnail, alt='Thumbnail', title, description, li
             }
         </div>
         <div className='w-full'>
-            <p className='text-title_2 font-medium'>
+            <p className='text-title_2 font-semibold text-noto'>
                 {title}
             </p>
             <p className='text-lg mt-[16px]'>

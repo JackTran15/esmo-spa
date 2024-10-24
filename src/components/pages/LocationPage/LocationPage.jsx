@@ -5,7 +5,7 @@ import { RegisterNews } from '@/components/common/RegisterNews/RegisterNews'
 export const LocationPage = () => {
   return (
     <div className='container pt-[64px] sm:pt-[96px] pb-[32px] sm:pb-[64px]'>
-        <p className='text-center text-title_3 font-semibold w-full'>
+        <p className='text-center text-title_3 font-semibold w-full text-noto'>
             Hệ thống EmoSpa
         </p>
         <p className='text-center text-gray mt-[16px] max-w-[768px] w-full mx-auto'>

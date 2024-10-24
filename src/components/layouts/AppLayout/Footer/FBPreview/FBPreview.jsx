@@ -4,7 +4,7 @@ export const FBPreview = () => {
   return (
     <div className='w-full md:max-w-[500px] bg-white cursor-pointer'>
         <div className='w-full px-[16px] pt-[12px] pb-[8px] flex justify-between gap-5'>
-            <div className='h-[40px]'>
+            <div className='h-[40px] shrink-0'>
                 <Image 
                     src={'/assets/images/fb_name.png'}
                     layout="responsive"
@@ -25,7 +25,7 @@ export const FBPreview = () => {
                 /> 
             </div>
         </div>
-        <div className='w-full'>
+        <div className='w-full shrink-0'>
             <Image 
                 src={'/assets/images/fb_banner.jpg'}
                 layout="responsive"

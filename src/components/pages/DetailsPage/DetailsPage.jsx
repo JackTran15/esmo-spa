@@ -144,7 +144,7 @@ export const DetailsPage = () => {
         <Breadcrumb/>
         <div className="w-full max-w-[768px] pt-[32px]">
           <span className="text-md text-primary font-medium">13/01/2024</span>
-          <p className="text-title_4 md:text-title_2 font-semibold mt-[12px]">
+          <p className="text-title_4 md:text-title_2 font-semibold mt-[12px] text-noto">
             Thư Giãn Lãng Mạn Với Massage Tình Nhân Tại EMO SPA
           </p>
           <p className="mt-[16px] md:mt-[24px] text-lg md:text-xl text-gray">

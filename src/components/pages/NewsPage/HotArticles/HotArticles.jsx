@@ -28,8 +28,8 @@ export const HotArticles = () => {
 
     return (
         <div className='w-full'>
-            <p className='text-gray text-sm mb-[32px]'>
-            Bài viết được xem nhiều nhất
+            <p className='text-gray text-sm mb-[32px] font-semibold'>
+                Bài viết được xem nhiều nhất
             </p>
             <Slider ref={ref_slider} {...carouselConfig} className="customArrowCarousel">
                 <HotArticleCard />
