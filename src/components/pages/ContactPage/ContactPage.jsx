@@ -32,7 +32,7 @@ export const ContactPage = () => {
     return (
         <div className='container py-[64px] md:py-[96px] grid md:grid-cols-2 gap-[48px] lg:gap-[108px]'>
             <div className='w-full pt-[38px]'>
-                <p className='text-title_3 font-semibold'>
+                <p className='text-title_3 font-semibold text-noto'>
                     Liên hệ đặt lịch
                 </p>
                 <p className='text-gray text-lg mt-[16px]'>

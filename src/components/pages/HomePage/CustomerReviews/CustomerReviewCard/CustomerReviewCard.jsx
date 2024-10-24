@@ -18,7 +18,7 @@ export const CustomerReviewCard = () => {
             <div className='w-full flex mb-[32px]'>
                 <RatingStar/>
             </div>
-            <p className="text-title_5 md:text-title_3 font-medium">
+            <p className="text-title_5 md:text-title_3 font-medium text-noto">
                 The product's flexibility and customization options are outstanding. It adapts perfectly to our unique needs.
             </p>
             <div className='flex items-center gap-[8px] mt-[32px]'>

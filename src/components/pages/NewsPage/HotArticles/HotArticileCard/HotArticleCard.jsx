@@ -16,7 +16,7 @@ export const HotArticleCard = () => {
         />
       </div>
       <div className='w-full pt-[32px] sm:p-[32px]'>
-        <p className='text-title_4 font-semibold line-clamp-2'>
+        <p className='text-title_4 font-semibold line-clamp-2 text-noto'>
           Effective product marketing techniques for small businesses
         </p>
         <p className='line-clamp-2 text-gray text-md mt-[16px]'>

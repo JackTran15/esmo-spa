@@ -18,7 +18,7 @@ export const AboutPage = () => {
           /> 
         </div>
         <div className='container relative z-10 pt-[96px] w-full max-w-[768px] flex flex-col items-center'>
-          <p className='text-title_3 md:text-title_2 font-semibold text-center text-white'>
+          <p className='text-title_3 md:text-title_2 font-semibold text-center text-white text-noto'>
             Khám Phá Thế Giới Spa Tại EmoSpa: Nơi Giao Thoa Giữa 
             Sức Khỏe và Sắc Đẹp
           </p>
@@ -45,7 +45,7 @@ export const AboutPage = () => {
             <p className='mt-[20px] text-lg text-gray'>
               Chào mừng bạn đến với EmoSpa - thiên đường của sự thư giãn và chăm sóc sắc đẹp! Trong cuộc sống bận rộn ngày nay, việc chăm sóc bản thân không chỉ là một nhu cầu mà còn trở thành một phần không thể thiếu của chúng ta. EmoSpa là nơi mà bạn có thể tìm thấy khoảnh khắc bình yên và tươi mới giữa những bộn bề lo toan. Hãy cùng khám phá thế giới thú vị của spa và cách mà chúng tôi mang đến cho bạn những trải nghiệm tuyệt vời nhé!
             </p>
-            <p className='text-xl text-gray mt-[20px] font-bold'>
+            <p className='text-xl text-gray mt-[20px] font-bold text-noto'>
               Spa - Hành Trình Giữa Các Thế Giới Chăm Sóc
             </p>
             <p className='mt-[20px] text-lg text-gray'>
@@ -64,7 +64,7 @@ export const AboutPage = () => {
             <p className='text-md text-gray mt-[16px]'>
               Hình ảnh bản quyền của EmoSpa
             </p>
-            <p className='text-xl text-gray mt-[48px] font-bold'>
+            <p className='text-xl text-gray mt-[48px] font-bold text-noto'>
               Các Loại Hình Spa Đặc Sắc Tại Việt Nam
             </p>
             <p className='mt-[20px] text-lg text-gray'>
@@ -118,7 +118,7 @@ export const AboutPage = () => {
             /> 
           </div>
           <div className='w-full md:px-32'>
-            <p className='text-title_4 font-semibold mb-[16px]'>Tiêu Chí Để Trở Thành Spa Uy Tín</p>
+            <p className='text-title_4 font-semibold mb-[16px] text-noto'>Tiêu Chí Để Trở Thành Spa Uy Tín</p>
             <p className='text-gray text-lg'>
               Khi tìm kiếm một spa, khách hàng thường quan tâm đến nhiều yếu tố để đảm bảo mình nhận được dịch vụ tốt nhất. Tại EmoSpa, chúng tôi cam kết mang đến cho bạn:
             </p>
@@ -136,7 +136,7 @@ export const AboutPage = () => {
                 Dịch vụ đa dạng: Tại EmoSpa, bạn có thể thoải mái lựa chọn các gói dịch vụ phù hợp với nhu cầu và sở thích cá nhân.
               </li>
             </ul>
-            <p className='mt-[48px] text-title_4 font-semibold mb-[16px]'>Lợi Ích Khi Ghé Thăm Spa Thường Xuyên</p>
+            <p className='mt-[48px] text-title_4 font-semibold mb-[16px] text-noto'>Lợi Ích Khi Ghé Thăm Spa Thường Xuyên</p>
             <p className='text-gray text-lg'>
               Việc thường xuyên thăm spa không chỉ mang lại những khoảnh khắc thư giãn cho tâm hồn mà còn là những lợi ích tuyệt vời cho sức khỏe. Các liệu trình massage giúp kích thích tuần hoàn máu, giảm căng thẳng và hỗ trợ phục hồi cơ thể hiệu quả. Đặc biệt, với các dịch vụ chăm sóc da tại EmoSpa, bạn sẽ dễ dàng duy trì làn da khỏe mạnh, rạng rỡ và đầy sức sống.
             </p>
@@ -153,7 +153,7 @@ export const AboutPage = () => {
             <p className='text-md text-gray mt-[16px]'>
               Hình ảnh bản quyền của EmoSpa
             </p>
-            <p className='mt-[48px] text-title_4 font-semibold mb-[16px]'>Kết Luận</p>
+            <p className='mt-[48px] text-title_4 font-semibold mb-[16px] text-noto'>Kết Luận</p>
             <p className='text-gray text-lg'>
             EmoSpa không chỉ đơn thuần là một spa, mà còn là nơi để bạn tìm thấy sự chăm sóc tận tình và chuyên nghiệp. Hãy để EmoSpa đồng hành cùng bạn trên hành trình chăm sóc sức khỏe và sắc đẹp. Đến EmoSpa, bạn không chỉ được thư giãn và làm đẹp mà còn tìm thấy niềm vui và sự sáng tạo cho cuộc sống! Hãy đến và trải nghiệm ngay những điều tuyệt vời mà EmoSpa mang lại!
             </p>

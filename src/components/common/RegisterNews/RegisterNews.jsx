@@ -28,7 +28,7 @@ export const RegisterNews = () => {
     return (
         <div className='w-full bg-white grid md:grid-cols-2'>
             <div className='w-full px-[24px] py-[32px] md:py-[64px] md:pl-[48px] pr-[27px] order-2 md:order-1'>
-                <p className='text-title_4 font-semibold text-center md:text-left'>
+                <p className='text-title_4 font-semibold text-center md:text-left text-noto'>
                     Hãy cho EmoSpa có cơ hội mang đến bạn trải nghiệm tốt nhất nhé!
                 </p>
                 <p className='text-gray text-lg mt-[16px] text-center md:text-left'>

@@ -5,7 +5,7 @@ export const ListArticle = () => {
   return (
     <div className='w-full relative pb-[90px] md:pb-0'>
         <div className='w-full'>
-            <p className='text-title_3 font-semibold text-center'>
+            <p className='text-title_3 font-semibold text-center text-noto'>
                 Blog & Tư Vấn Làm Đẹp
             </p>
             <p className='text-lg mt-[16px] text-gray text-center'>

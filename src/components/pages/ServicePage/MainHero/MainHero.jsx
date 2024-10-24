@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export const MainHero = () => {
   return (
     <div className="w-full max-w-[800px] mx-auto">
-      <div className="text-title_4 md:text-title_1 md:text-center font-semibold">
+      <div className="text-title_4 md:text-title_1 md:text-center font-semibold text-noto">
         Thư Giãn Lãng Mạn Với Massage Tình Nhân Tại EMO SPA
       </div>
       <div className="text-lg text-gray mt-[16px] w-full md:max-w-[590px] mx-auto md:text-center">

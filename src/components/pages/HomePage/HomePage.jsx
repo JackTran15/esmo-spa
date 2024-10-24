@@ -20,9 +20,9 @@ export const HomePage = () => {
       </div>
 
       {/* Dịch Vụ Chăm Sóc Da & Trị Liệu Hàng Đầu */}
-      <div className='container pt-[48px] md:pt-[96px] pb-[64px] md:pb-[80px] grid md:grid-cols-2 gap-[64px]'>
+      <div className='container pt-[112px] md:pt-[123px] pb-[64px] md:pb-[80px] grid md:grid-cols-2 gap-[64px]'>
         <div className='w-full h-full flex flex-col justify-center'>
-            <p className='text-title_5 md:text-title_2 font-semibold'>
+            <p className='text-title_5 md:text-title_2 font-semibold text-noto'>
                 Dịch Vụ Chăm Sóc Da & Trị Liệu Hàng Đầu
             </p>
             <p className='w-full mt-[16px] md:mt-[24px] text-gray'>
