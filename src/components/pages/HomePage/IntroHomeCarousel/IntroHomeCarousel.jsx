@@ -16,36 +16,41 @@ export const IntroHomeCarousel = () => {
     speed: 300,
     infinite: true,
     centerMode: true,
-    centerPadding: '100px',
-    slidesToShow: 1,
+    centerPadding: '0px',
+    slidesToShow: 3,
     responsive: [
       {
         breakpoint: 1500,
         settings: {
+          slidesToShow: 1,
           centerPadding: '450px',
         }
       },
       {
         breakpoint: 1380,
         settings: {
+          slidesToShow: 1,
           centerPadding: '390px',
         }
       },
       {
         breakpoint: 1200,
         settings: {
+          slidesToShow: 1,
           centerPadding: '200px',
         }
       },
       {
         breakpoint: 800,
         settings: {
+          slidesToShow: 1,
           centerPadding: '100px',
         }
       },
       {
         breakpoint: 600,
         settings: {
+          slidesToShow: 1,
           centerPadding: '40px',
         }
       },

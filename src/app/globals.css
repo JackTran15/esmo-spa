@@ -2,26 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-
 .text-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-variation-settings: "wdth" 100;
+  font-family: var(--font-inter);
 }
 
 .text-noto {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-variation-settings: "wdth" 100;
+  font-family: var(--font-noto-serif);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter);
   font-weight: 400;
   font-style: normal;
   font-optical-sizing: auto;
@@ -257,6 +250,20 @@ a {
 
 .customArrowCarousel.introHomeCarousel .slick-arrow.slick-prev {
   right: 60px;
+}
+
+@media screen and (min-width: 1500px) {
+  .customArrowCarousel.introHomeCarousel .slick-slide.slick-active:not(.slick-current) .introHomeCardItem {
+    margin-right: unset;
+  }
+
+  /* .customArrowCarousel.introHomeCarousel .slick-slide.slick-active.slick-current {
+    background-color: yellow;
+  } */
+
+  .customArrowCarousel.introHomeCarousel .slick-slide.slick-active.slick-current  + .slick-slide .introHomeCardItem {
+    margin-left: unset;
+  }
 }
 
 @media screen and (max-width: 768px) {

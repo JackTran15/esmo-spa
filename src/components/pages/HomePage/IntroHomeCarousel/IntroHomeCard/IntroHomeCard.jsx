@@ -14,7 +14,7 @@ export const IntroHomeCard = ({ isActive }) => {
   })
 
   return (
-    <div className={'w-full xl:max-w-[550px] mx-auto'}>
+    <div className={'w-full xl:max-w-[550px] mx-auto introHomeCardItem'}>
         <div className={imageClassName}>
             <Image 
                 src={'/assets/images/service_1.jpg'}
